@@ -1,4 +1,3 @@
-
 def isfloat(x):
     try:
         float_n = float(x)
@@ -7,21 +6,10 @@ def isfloat(x):
     else:
         return True
 
-
-
-
 print("\n\n***Welcome to The Temperatrue Conversion Program***")
 print("You will be prompted to Choose your input unit, then enter the temperature value")
 print("After that you will have the entered temperature Converted to All units")
 input("Press Enter to continue...")
-
-
-
-
-
-
-
-
 
 choice_flag = False
 while choice_flag == False:
